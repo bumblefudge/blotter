@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "category":"Dietary Supplement",
+  "productID":"B079Z1R94L",
+  "mpn":"GFNMN250MG3PK",
+  "gtin":"86809500033248",
+  "releaseDate":"2018-02-14T00:00:00Z",
+  "manufacturer":"",
+  "name":"Genex Formulas",
+  "description":"NMN Stabilized Form Supplement 250mg Serving 3Pack Nicotinamide Mononucleotide to Boost NAD+ Levels for DNA Repair Works Best When Paired with Resveratrol (2X 125mg caps 60 ct per Bottle)",
+  "model": "NMN Nicotinamide Mononucleotide NAD+ Booster",
+  "color": "mix",
+  "material":"composite",
+  "weight":"6.38 Ounces",
+  "length":"8.5 inches",
+  "width":"2.5 inches",
+  "depth":"4.5 inches",
+  "url":"https://www.amazon.com/dp/B079Z1R94L?keyword=Nicotinamide+Mononucleotide&ref_=asf_gw_img_rp_dpx_dsk&rid=167d54d2-543d-4bbc-b53a-e61f22ccc111&asins=B079Z1R94L&pf_rd_r=M6KAKCVBPPVMHTSRKGZJ&pf_rd_p=44073fbb-ebb3-4dd1-a16b-4b50e9d85a00"
+}
