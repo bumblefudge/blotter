@@ -10,31 +10,31 @@
     ],
     "issuer": {
         "id": "did:web:amazon-123",
-        "name": "Amazon"
+        "name": "Amazon Global"
     },
-    "issuanceDate": "2021-01-11T19:23:24Z", //<-- will be set live
-    //------- spec says not to set to NULL? "expirationDate": "",
+    "issuanceDate": "2021-01-11T19:23:24Z", 
     "credentialSubject": {
         "id": "did:web:amazon.com",
         "ProductCode": "86809500033248",
-        "RegisteredProductCertificate": {         //field name Pascalled
+        "RegisteredProductCertificate": {   
             "type": "ProductRegistrationCredential",
             "name": "Amazon"
         }
     },
     "credentialStatus": {
-{"vcID": "VCID of the product VC", "status": "valid"}
-        "id": "https://example.credential_status_url.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-        "type": "CredentialStatusList2020" //<-- will be 
-    },
+        "id": "https://status.amazon.com/credentials/status/6#94569",
+        "type": "RevocationList2020Status",
+        "revocationListIndex": "94569",
+        "revocationListCredential": "https://status.amazon.com/credentials/status/6"
+    }
     "evidence": [
         {
             "id": "https://verifiablecredentials.example_business_context.com/ProductCredential/evidence/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-            "type": ["DocumentVerification"], //aligned with VC Spec example #23 - CredentialEvidenceVerification",
+            "type": ["DocumentVerification"], 
             "verifier": "did:web:amazon.com",
-            "evidenceDocument": "ProductRegistrationReferenceData-GFNMN250MG3PK-05-01-2021", //aligned with VC Spec example #23 - CredentialEvidenceVerification",
-            "subjectPresence": "Digital", //value Pascalled per spec
-            "documentPresence": "Digital" //value Pascalled per spec
+            "evidenceDocument": "ProductRegistrationReferenceData-GFNMN250MG3PK-05-01-2021", 
+            "subjectPresence": "Digital",
+            "documentPresence": "Digital"
         }
     ]
 } 
