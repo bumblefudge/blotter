@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/traceability/v1"
+    ],
+    "id": "https://example.VC_url.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
+    "type": [
+        "VerifiableCredential",
+        "ProductRegistrationCredential"
+    ],
+    "issuer": {
+        "id": "did:web:amazon-123",
+        "name": "Amazon"
+    },
+    "issuanceDate": "2021-01-11T19:23:24Z",
+    "expirationDate": "",
+    "credentialSubject": {
+        "id": "did:web:amazon.com",
+        "ProductCode": "86809500033248",
+        "registreredProductCertificate": {
+            "type": "ProductRegistrationCredential",
+            "name": "Amazon"
+        }
+    },
+    "credentialStatus": {
+{"vcID": "VCID of the product VC", "status": "valid"}
+        "id": "https://example.credential_status_url.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
+        "type": "CredentialStatusList2020"
+    },
+    "evidence": [
+        {
+github with the path ProductCredential/evidence
+            "id": "https://verifiablecredentials.example_business_context.com/ProductCredential/evidence/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
+            "type": "CredentialEvidenceVerification",
+            "verifier": "did:web:amazon.com",
+            "ProductRegistrationEvidenceDocument": "ProductRegistrationReferenceData-GFNMN250MG3PK-05-01-2021",
+            "subjectPresence": "digital",
+            "documentPresence": "digital"
+        }
+    ]
+} 
