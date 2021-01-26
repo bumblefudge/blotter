@@ -27,14 +27,12 @@
         "revocationListIndex": "94569",
         "revocationListCredential": "https://status.amazon.com/credentials/status/6"
     }
-    "evidence": [
-        {
-            "id": "https://verifiablecredentials.example_business_context.com/ProductCredential/evidence/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-            "type": ["DocumentVerification"], 
-            "verifier": "did:web:amazon.com",
-            "evidenceDocument": "ProductRegistrationReferenceData-GFNMN250MG3PK-05-01-2021", 
-            "subjectPresence": "Digital",
-            "documentPresence": "Digital"
-        }
-    ]
+    "evidence": {
+        "id": "https://verifiablecredentials.example_business_context.com/ProductCredential/evidence/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
+        "type": ["DocumentVerification"], 
+        "verifier": "did:web:amazon.com",
+        "evidenceDocument": "ProductRegistrationReferenceData-GFNMN250MG3PK-05-01-2021", 
+        "subjectPresence": "Digital",
+        "documentPresence": "Digital"   
+    }
 } 
